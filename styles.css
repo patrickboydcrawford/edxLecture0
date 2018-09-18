@@ -1,0 +1,36 @@
+
+#Bio,#Resume_Holder,#Links{
+  font-size: 110%;
+  font-family: monospace;
+  color: black;
+  align-items: center;
+}
+
+
+#Diving_Div{
+  background-color: black;
+  align: center;
+  padding: 10;
+}
+
+
+
+#Diving_Image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 200px) {
+  #Diving_Image,#Diving_Div{
+    display: none;
+  }
+}
+
+#Degrees{
+
+}
+.links{
+  font-size: 110%;
+  color: blue;
+}
